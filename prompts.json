@@ -1,0 +1,1338 @@
+{
+  "categories": [
+    {
+      "id": "image",
+      "title": "تصویر و طراحی",
+      "description": "پرامپت‌هایی برای ساخت تصویر، لوگو، پوستر و ایده‌های بصری.",
+      "icon": "✳",
+      "number": "01",
+      "cssClass": "icon-lilac"
+    },
+    {
+      "id": "coding",
+      "title": "برنامه‌نویسی و فناوری",
+      "description": "برای نوشتن کد، رفع خطا و ساخت پروژه‌های نرم‌افزاری.",
+      "icon": "⌘",
+      "number": "02",
+      "cssClass": "icon-blue"
+    },
+    {
+      "id": "writing",
+      "title": "نوشتن و محتوا",
+      "description": "برای نوشتن متن، مقاله، داستان و ویرایش محتوا.",
+      "icon": "Aa",
+      "number": "03",
+      "cssClass": "icon-peach"
+    },
+    {
+      "id": "study",
+      "title": "درس و یادگیری",
+      "description": "برای فهم بهتر مفاهیم، تمرین و آمادگی آزمون.",
+      "icon": "⌁",
+      "number": "04",
+      "cssClass": "icon-mint"
+    },
+    {
+      "id": "business",
+      "title": "کسب‌وکار",
+      "description": "برای ایده‌پردازی، شناخت مشتری، بازاریابی و برنامه‌ریزی.",
+      "icon": "↗",
+      "number": "05",
+      "cssClass": "icon-yellow"
+    },
+    {
+      "id": "social",
+      "title": "شبکه‌های اجتماعی",
+      "description": "برای ایده پست، ویدئو، کپشن و برنامه انتشار.",
+      "icon": "◎",
+      "number": "06",
+      "cssClass": "icon-pink"
+    },
+    {
+      "id": "productivity",
+      "title": "بهره‌وری و برنامه‌ریزی",
+      "description": "برای مدیریت زمان، هدف‌ها، پروژه‌ها و کارهای روزانه.",
+      "icon": "◷",
+      "number": "07",
+      "cssClass": "icon-blue"
+    },
+    {
+      "id": "gaming",
+      "title": "بازی و سرگرمی",
+      "description": "برای طراحی بازی، شخصیت، مأموریت و ایده‌های سرگرم‌کننده.",
+      "icon": "⌁",
+      "number": "08",
+      "cssClass": "icon-lilac"
+    },
+    {
+      "id": "data",
+      "title": "داده و تحلیل",
+      "description": "برای پاک‌سازی داده، تحلیل، نمودار و گزارش‌نویسی.",
+      "icon": "▦",
+      "number": "09",
+      "cssClass": "icon-mint"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "image-01",
+      "title": "ساخت تصویر از ایده",
+      "categoryId": "image",
+      "description": "ایده خام را به دستور دقیق تولید تصویر تبدیل کن.",
+      "body": "Turn [IDEA] into a detailed image-generation prompt. Specify subject, composition, lighting, palette, mood, perspective, texture, aspect ratio, and elements to avoid."
+    },
+    {
+      "id": "image-02",
+      "title": "طراحی لوگوی مینیمال",
+      "categoryId": "image",
+      "description": "سه مفهوم لوگوی ساده و ماندگار پیشنهاد بده.",
+      "body": "Create three minimalist logo concepts for [BRAND] in [INDUSTRY]. Explain symbol, typography, colors, meaning, and monochrome scalability."
+    },
+    {
+      "id": "image-03",
+      "title": "طراحی پوستر رویداد",
+      "categoryId": "image",
+      "description": "پوستری خوانا برای یک رویداد طراحی کن.",
+      "body": "Design a poster for [EVENT] aimed at [AUDIENCE]. Define visual hierarchy, headline, date, location, CTA, typography, colors, imagery, and contrast."
+    },
+    {
+      "id": "image-04",
+      "title": "عکاسی محصول",
+      "categoryId": "image",
+      "description": "صحنه‌ای حرفه‌ای برای عکاسی محصول پیشنهاد بده.",
+      "body": "Write a commercial product-photography prompt for [PRODUCT], specifying background, lighting, lens perspective, textures, shadows, props, and focal point."
+    },
+    {
+      "id": "image-05",
+      "title": "طراحی شخصیت فانتزی",
+      "categoryId": "image",
+      "description": "شخصیتی با هویت بصری مشخص بساز.",
+      "body": "Design an original fantasy character for [SETTING]. Define silhouette, face, clothing, materials, palette, signature object, pose, and personality cues."
+    },
+    {
+      "id": "image-06",
+      "title": "تصویر ایزومتریک",
+      "categoryId": "image",
+      "description": "صحنه‌ای ایزومتریک با جزئیات منظم بساز.",
+      "body": "Create an isometric illustration of [SCENE] with consistent perspective, simplified geometry, clear spacing, soft shadows, limited colors, and a clean background."
+    },
+    {
+      "id": "image-07",
+      "title": "تصویر بندانگشتی ویدئو",
+      "categoryId": "image",
+      "description": "تصویری واضح برای جلب توجه مخاطب طراحی کن.",
+      "body": "Design a thumbnail for a video about [TOPIC]. Use one dominant subject, strong contrast, minimal text, clear emotion, and a phone-friendly composition."
+    },
+    {
+      "id": "image-08",
+      "title": "پالت رنگی پروژه",
+      "categoryId": "image",
+      "description": "پالت رنگ هماهنگ با حال‌وهوای پروژه بساز.",
+      "body": "Create a five-color palette for [PROJECT] with mood [MOOD]. Give HEX values, roles, and accessible text/background pairings."
+    },
+    {
+      "id": "image-09",
+      "title": "طراحی رابط اپلیکیشن",
+      "categoryId": "image",
+      "description": "صفحه‌ای کاربردی و واکنش‌گرا طراحی کن.",
+      "body": "Propose a UI for a [APP TYPE] screen used by [USERS]. Define hierarchy, components, spacing, typography, states, accessibility, and responsive behavior."
+    },
+    {
+      "id": "image-10",
+      "title": "ویرایش تصویر موجود",
+      "categoryId": "image",
+      "description": "دستور ویرایش دقیقی برای تصویر فعلی بنویس.",
+      "body": "Write an image-editing instruction for the supplied image. Preserve [KEEP], improve [CHANGE], specify lighting and cleanup, and do not introduce unsupported objects."
+    },
+    {
+      "id": "image-11",
+      "title": "تصویرسازی کتاب کودک",
+      "categoryId": "image",
+      "description": "تصویری گرم و مناسب کتاب کودک طراحی کن.",
+      "body": "Write an illustration prompt for a children's book scene about [SCENE] for ages [AGE]. Use friendly shapes, expressive characters, warm colors, and consistent series style."
+    },
+    {
+      "id": "image-12",
+      "title": "بسته‌بندی محصول",
+      "categoryId": "image",
+      "description": "بسته‌بندی متمایز و کاربردی طراحی کن.",
+      "body": "Develop packaging concepts for [PRODUCT] targeting [AUDIENCE]. Address shelf visibility, materials, typography, label areas, sustainability, and opening experience."
+    },
+    {
+      "id": "image-13",
+      "title": "پس‌زمینه دسکتاپ",
+      "categoryId": "image",
+      "description": "پس‌زمینه‌ای خلوت و چشم‌نواز بساز.",
+      "body": "Create a desktop wallpaper prompt around [THEME] at [RESOLUTION]. Keep negative space for icons, balanced contrast, and avoid distracting details or text."
+    },
+    {
+      "id": "image-14",
+      "title": "استوری‌بورد تبلیغاتی",
+      "categoryId": "image",
+      "description": "تبلیغ کوتاه را به نماهای تصویری تقسیم کن.",
+      "body": "Create a six-panel storyboard for a [DURATION]-second ad for [PRODUCT]. Describe framing, action, camera movement, transition, on-screen text, and emotional purpose."
+    },
+    {
+      "id": "image-15",
+      "title": "مجموعه آیکون",
+      "categoryId": "image",
+      "description": "آیکون‌هایی هم‌سبک برای یک محصول طراحی کن.",
+      "body": "Specify eight icons for [APP]. Define grid, stroke, corner radius, alignment, style, and a distinct visual metaphor for [FUNCTIONS]."
+    },
+    {
+      "id": "image-16",
+      "title": "هنر مفهومی محیط",
+      "categoryId": "image",
+      "description": "محیطی خیالی با جزئیات باورپذیر خلق کن.",
+      "body": "Create environment concept art for [LOCATION] in [GENRE]. Describe architecture, scale, weather, atmosphere, materials, lighting, depth layers, and visual storytelling."
+    },
+    {
+      "id": "image-17",
+      "title": "پرتره سینمایی",
+      "categoryId": "image",
+      "description": "پرامپتی برای پرتره با نورپردازی سینمایی بنویس.",
+      "body": "Write a cinematic portrait prompt for [SUBJECT]. Specify pose, expression, lens, framing, key/fill light, background separation, color grade, and natural skin texture."
+    },
+    {
+      "id": "image-18",
+      "title": "اینفوگرافیک",
+      "categoryId": "image",
+      "description": "اطلاعات پیچیده را به اینفوگرافیک تبدیل کن.",
+      "body": "Plan an infographic explaining [TOPIC] to [AUDIENCE]. Choose reading order, concise labels, chart/icon types, restrained palette, source notes, and accessible text sizes."
+    },
+    {
+      "id": "image-19",
+      "title": "جلد کتاب",
+      "categoryId": "image",
+      "description": "جلدی متناسب با ژانر و موضوع کتاب طراحی کن.",
+      "body": "Develop a cover concept for [TITLE], a [GENRE] book about [PREMISE]. Explain focal imagery, typography, color, negative space, spine, and thumbnail legibility."
+    },
+    {
+      "id": "image-20",
+      "title": "سبک بصری مشخص",
+      "categoryId": "image",
+      "description": "سبکی بصری را به پرامپتی دقیق تبدیل کن.",
+      "body": "Create an image prompt for [SUBJECT] in [VISUAL STYLE]. Describe defining traits, composition, palette, texture, lighting, and exclusions without copying a living artist's style."
+    },
+    {
+      "id": "coding-01",
+      "title": "توضیح کد برای مبتدی",
+      "categoryId": "coding",
+      "description": "کد را خط‌به‌خط و ساده توضیح بده.",
+      "body": "Explain [CODE] to a beginner line by line. Describe important statements, data flow, terms, expected output, and a simple example."
+    },
+    {
+      "id": "coding-02",
+      "title": "رفع خطای برنامه",
+      "categoryId": "coding",
+      "description": "علت خطا و راه‌حل قابل‌آزمایش پیدا کن.",
+      "body": "Debug this issue. Stack: [STACK]. Code: [CODE]. Error: [ERROR]. Rank likely causes, suggest the smallest safe fix, and explain verification steps."
+    },
+    {
+      "id": "coding-03",
+      "title": "صفحه وب واکنش‌گرا",
+      "categoryId": "coding",
+      "description": "صفحه‌ای واکنش‌گرا با فناوری‌های پایه بساز.",
+      "body": "Build a responsive [PAGE TYPE] using semantic HTML, CSS, and vanilla JavaScript. Requirements: [REQUIREMENTS]. Provide complete runnable files and accessibility notes."
+    },
+    {
+      "id": "coding-04",
+      "title": "تابع پایتون",
+      "categoryId": "coding",
+      "description": "تابعی تمیز و قابل‌آزمایش بنویس.",
+      "body": "Write a Python function for [TASK]. Inputs: [INPUTS]. Output: [OUTPUT]. Include type hints, docstring, edge-case handling, and five tests."
+    },
+    {
+      "id": "coding-05",
+      "title": "بازبینی کد",
+      "categoryId": "coding",
+      "description": "کیفیت، امنیت و نگهداشت کد را بررسی کن.",
+      "body": "Review [CODE] for correctness, readability, performance, security, and maintainability. Rank findings by severity and suggest focused fixes without speculation."
+    },
+    {
+      "id": "coding-06",
+      "title": "ساختار پروژه",
+      "categoryId": "coding",
+      "description": "ساختار فایل مناسب پروژه پیشنهاد بده.",
+      "body": "Propose a maintainable folder structure for a [PROJECT TYPE] using [TECHNOLOGY]. Explain each folder, configuration, testing location, and scaling choices."
+    },
+    {
+      "id": "coding-07",
+      "title": "تست واحد",
+      "categoryId": "coding",
+      "description": "برای کد تست‌های معنادار بساز.",
+      "body": "Create unit tests for [CODE] using [TEST FRAMEWORK]. Cover normal cases, boundaries, invalid inputs, and regression risks; include expected results."
+    },
+    {
+      "id": "coding-08",
+      "title": "بهینه‌سازی عملکرد",
+      "categoryId": "coding",
+      "description": "گلوگاه‌های عملکردی را پیدا کن.",
+      "body": "Analyze [CODE] for performance bottlenecks. Explain likely costs, measurement methods, safe improvements, and time/space complexity where useful."
+    },
+    {
+      "id": "coding-09",
+      "title": "تبدیل شبه‌کد به برنامه",
+      "categoryId": "coding",
+      "description": "الگوریتم را به کد اجرایی تبدیل کن.",
+      "body": "Convert [PSEUDOCODE] into [LANGUAGE]. State assumptions, implement it, explain complexity, and include sample input/output and edge-case tests."
+    },
+    {
+      "id": "coding-10",
+      "title": "طراحی API",
+      "categoryId": "coding",
+      "description": "API با ورودی و خطاهای روشن طراحی کن.",
+      "body": "Design a REST API for [USE CASE]. Define endpoints, methods, request/response examples, validation, status codes, pagination, and authentication considerations."
+    },
+    {
+      "id": "coding-11",
+      "title": "آموزش Git",
+      "categoryId": "coding",
+      "description": "فرمان‌های Git را برای یک سناریو توضیح بده.",
+      "body": "Teach Git for [SCENARIO]. Give commands in order, explain each one, show verification, and include a safe recovery option."
+    },
+    {
+      "id": "coding-12",
+      "title": "مفهوم شبکه",
+      "categoryId": "coding",
+      "description": "مفهوم شبکه‌ای را با مثال ساده آموزش بده.",
+      "body": "Explain [NETWORK CONCEPT] to a beginner using an analogy, then provide the accurate technical explanation, a small example, misconceptions, and two quiz questions."
+    },
+    {
+      "id": "coding-13",
+      "title": "کوئری SQL",
+      "categoryId": "coding",
+      "description": "کوئری دقیق برای داده‌های مشخص بنویس.",
+      "body": "Write a SQL query for [GOAL] using [SCHEMA]. State assumptions, use readable aliases, handle NULLs, and explain the query."
+    },
+    {
+      "id": "coding-14",
+      "title": "مقایسه فناوری‌ها",
+      "categoryId": "coding",
+      "description": "دو فناوری را بر اساس معیارهای واقعی مقایسه کن.",
+      "body": "Compare [TECH A] and [TECH B] for [PROJECT]. Evaluate learning curve, performance, ecosystem, deployment, maintenance, cost, and constraints."
+    },
+    {
+      "id": "coding-15",
+      "title": "مستندات فنی",
+      "categoryId": "coding",
+      "description": "مستنداتی بنویس که توسعه‌دهنده بتواند استفاده کند.",
+      "body": "Write documentation for [PROJECT]. Include purpose, prerequisites, installation, configuration, examples, troubleshooting, and known limitations."
+    },
+    {
+      "id": "coding-16",
+      "title": "خودکارسازی کار تکراری",
+      "categoryId": "coding",
+      "description": "اسکریپتی امن برای کار تکراری بساز.",
+      "body": "Create a [LANGUAGE] script to automate [TASK]. Include validation, logging, error handling, dry-run for destructive actions, and run instructions."
+    },
+    {
+      "id": "coding-17",
+      "title": "تحلیل الگوریتم",
+      "categoryId": "coding",
+      "description": "الگوریتم و پیچیدگی آن را توضیح بده.",
+      "body": "Explain an algorithm for [PROBLEM]. Provide approach, pseudocode, [LANGUAGE] implementation, complexity, walkthrough, and one alternative."
+    },
+    {
+      "id": "coding-18",
+      "title": "امن‌سازی ورودی",
+      "categoryId": "coding",
+      "description": "ریسک‌های ورودی کاربر را کاهش بده.",
+      "body": "Assess user-input handling in [CODE OR DESIGN]. Identify injection, unsafe rendering, and validation risks; recommend context-appropriate mitigations and tests."
+    },
+    {
+      "id": "coding-19",
+      "title": "کامپوننت قابل‌بازیافت",
+      "categoryId": "coding",
+      "description": "کامپوننتی نگهداشت‌پذیر طراحی کن.",
+      "body": "Create a reusable [COMPONENT] for [FRAMEWORK]. Define props, defaults, states, accessibility behavior, examples, and testing guidance."
+    },
+    {
+      "id": "coding-20",
+      "title": "مسیر یادگیری برنامه‌نویسی",
+      "categoryId": "coding",
+      "description": "مسیر عملی چهار هفته‌ای بساز.",
+      "body": "Create a four-week plan to learn [SKILL] for a beginner with [HOURS PER WEEK]. Include concepts, mini-projects, review checkpoints, and measurable outcomes."
+    },
+    {
+      "id": "writing-01",
+      "title": "ایمیل حرفه‌ای",
+      "categoryId": "writing",
+      "description": "ایمیلی روشن و محترمانه برای موقعیتی مشخص بنویس.",
+      "body": "Draft a professional email about [PURPOSE] to [RECIPIENT]. Use [TONE], state the request, include needed context, and end with a next step without inventing facts."
+    },
+    {
+      "id": "writing-02",
+      "title": "بازنویسی روان",
+      "categoryId": "writing",
+      "description": "متن را واضح‌تر کن و معنا را نگه دار.",
+      "body": "Rewrite [TEXT] for clarity and flow for [AUDIENCE] in a [TONE] tone. Return the polished version first, then list important changes."
+    },
+    {
+      "id": "writing-03",
+      "title": "مقاله وبلاگی",
+      "categoryId": "writing",
+      "description": "مقاله‌ای ساختارمند و مفید بنویس.",
+      "body": "Write a blog article about [TOPIC] for [AUDIENCE]. Include a strong title, introduction, headings, practical examples, conclusion, and flag claims needing verification."
+    },
+    {
+      "id": "writing-04",
+      "title": "ایده داستان",
+      "categoryId": "writing",
+      "description": "ایده‌های داستانی متمایز با کشمکش بساز.",
+      "body": "Generate five distinct [GENRE] story premises. Include protagonist, goal, obstacle, stakes, and an unexpected but plausible complication."
+    },
+    {
+      "id": "writing-05",
+      "title": "ویرایش نگارشی",
+      "categoryId": "writing",
+      "description": "اشتباه‌ها را اصلاح کن و لحن نویسنده را نگه دار.",
+      "body": "Proofread [TEXT] for grammar, spelling, punctuation, and awkward phrasing while preserving voice. Return a clean version and meaningful corrections."
+    },
+    {
+      "id": "writing-06",
+      "title": "رزومه شغلی",
+      "categoryId": "writing",
+      "description": "تجربه‌ها را به دستاوردهای مرتبط تبدیل کن.",
+      "body": "Improve these resume details for [ROLE]: [EXPERIENCE]. Emphasize impact and relevant skills; never fabricate metrics or responsibilities."
+    },
+    {
+      "id": "writing-07",
+      "title": "نامه معرفی شغلی",
+      "categoryId": "writing",
+      "description": "نامه‌ای متناسب با فرصت شغلی بنویس.",
+      "body": "Draft a cover letter for [ROLE] at [COMPANY] using [BACKGROUND]. Connect relevant achievements to the role and use placeholders for missing facts."
+    },
+    {
+      "id": "writing-08",
+      "title": "خلاصه متن",
+      "categoryId": "writing",
+      "description": "نکته‌های اصلی را بدون تحریف خلاصه کن.",
+      "body": "Summarize [TEXT] for [AUDIENCE] in [LENGTH]. Preserve argument, evidence, and caveats; do not add facts absent from the source."
+    },
+    {
+      "id": "writing-09",
+      "title": "عنوان جذاب",
+      "categoryId": "writing",
+      "description": "عنوان‌هایی دقیق و کنجکاوی‌برانگیز پیشنهاد بده.",
+      "body": "Generate 12 headline options for [CONTENT] aimed at [AUDIENCE]. Vary angle and length, avoid clickbait, and explain the strongest three."
+    },
+    {
+      "id": "writing-10",
+      "title": "داستان کوتاه",
+      "categoryId": "writing",
+      "description": "داستانی با انتخاب معنادار و پایان مناسب بنویس.",
+      "body": "Write a [WORD COUNT]-word [GENRE] story about [THEME]. Give the protagonist a meaningful choice, sensory detail, and an earned ending."
+    },
+    {
+      "id": "writing-11",
+      "title": "یادداشت به متن",
+      "categoryId": "writing",
+      "description": "یادداشت‌های پراکنده را منظم کن.",
+      "body": "Turn [NOTES] into a coherent [FORMAT]. Group ideas, preserve uncertainty, remove repetition, and list ambiguous points separately."
+    },
+    {
+      "id": "writing-12",
+      "title": "توضیح محصول",
+      "categoryId": "writing",
+      "description": "ویژگی‌ها را به مزیت‌های روشن تبدیل کن.",
+      "body": "Write a product description for [PRODUCT] aimed at [CUSTOMER]. Explain verified features, practical benefits, one likely concern, and a clear structure without invented claims."
+    },
+    {
+      "id": "writing-13",
+      "title": "طرح مقاله پژوهشی",
+      "categoryId": "writing",
+      "description": "برای موضوع پژوهشی طرحی منطقی آماده کن.",
+      "body": "Create an outline for a research article on [QUESTION]. Include thesis, sections, evidence needed, counterarguments, and limitations without fabricated citations."
+    },
+    {
+      "id": "writing-14",
+      "title": "داستان تعاملی",
+      "categoryId": "writing",
+      "description": "داستانی بساز که انتخاب‌ها بر آن اثر بگذارند.",
+      "body": "Create an interactive fiction opening about [SETTING]. Present three meaningfully different choices and explain consequences while maintaining continuity."
+    },
+    {
+      "id": "writing-15",
+      "title": "تغییر لحن متن",
+      "categoryId": "writing",
+      "description": "متن را با لحنی مشخص بازنویسی کن.",
+      "body": "Adapt [TEXT] for [AUDIENCE] in a [TONE] voice. Preserve meaning and key details, and explain wording that could be interpreted differently."
+    },
+    {
+      "id": "writing-16",
+      "title": "پرسش مصاحبه",
+      "categoryId": "writing",
+      "description": "پرسش‌های عمیق و بی‌طرفانه بساز.",
+      "body": "Prepare 12 interview questions about [TOPIC] for [INTERVIEWEE]. Progress from accessible questions to follow-ups and include questions that clarify evidence."
+    },
+    {
+      "id": "writing-17",
+      "title": "خبرنامه ایمیلی",
+      "categoryId": "writing",
+      "description": "خبرنامه‌ای کوتاه و مفید بنویس.",
+      "body": "Draft a newsletter for [AUDIENCE] about [SUBJECT]. Provide subject lines, preview text, useful opening, scannable sections, and one primary CTA."
+    },
+    {
+      "id": "writing-18",
+      "title": "راهنمای مرحله‌ای",
+      "categoryId": "writing",
+      "description": "راهنمایی اجرایی و روشن برای مبتدی بنویس.",
+      "body": "Write a step-by-step guide to [TASK]. Include prerequisites, tools, ordered actions, expected results, common mistakes, and troubleshooting."
+    },
+    {
+      "id": "writing-19",
+      "title": "نام برند",
+      "categoryId": "writing",
+      "description": "نام‌های متمایز متناسب با هویت برند پیشنهاد بده.",
+      "body": "Suggest 20 names for a [BRAND TYPE] with traits [TRAITS]. Explain each idea and remind me to check trademark and domain availability."
+    },
+    {
+      "id": "writing-20",
+      "title": "تقویم تحریریه",
+      "categoryId": "writing",
+      "description": "موضوعات متنوع را برای انتشار منظم برنامه‌ریزی کن.",
+      "body": "Create a four-week editorial calendar for [PUBLICATION] about [TOPIC]. Include distinct topic, format, audience need, headline, and research task."
+    },
+    {
+      "id": "study-01",
+      "title": "توضیح ساده مفهوم",
+      "categoryId": "study",
+      "description": "مفهومی دشوار را با زبان ساده توضیح بده.",
+      "body": "Explain [CONCEPT] to a [LEVEL] learner. Start with a plain definition and analogy, then accurate explanation, worked example, misconceptions, and recap."
+    },
+    {
+      "id": "study-02",
+      "title": "برنامه امتحان",
+      "categoryId": "study",
+      "description": "برای زمان باقی‌مانده برنامه واقع‌بینانه بساز.",
+      "body": "Build an exam plan for [SUBJECT] with [DAYS] days and [HOURS PER DAY]. Prioritize topics, schedule active recall and practice, include breaks and review."
+    },
+    {
+      "id": "study-03",
+      "title": "فلش‌کارت آموزشی",
+      "categoryId": "study",
+      "description": "فلش‌کارت‌های مناسب یادآوری فعال بساز.",
+      "body": "Create 15 active-recall flashcards from [MATERIAL]. Each card asks one focused question and gives a concise answer, including application questions."
+    },
+    {
+      "id": "study-04",
+      "title": "آزمون چندگزینه‌ای",
+      "categoryId": "study",
+      "description": "آزمونی همراه پاسخ تشریحی بساز.",
+      "body": "Create a [NUMBER]-question multiple-choice quiz on [TOPIC] for [LEVEL]. Use plausible distractors and provide an explained answer key after the questions."
+    },
+    {
+      "id": "study-05",
+      "title": "حل مسئله مرحله‌ای",
+      "categoryId": "study",
+      "description": "روش حل را آموزش بده نه فقط جواب را.",
+      "body": "Help solve [PROBLEM]. Identify the concept, show each step and why it works, check the result, mention a common mistake, and give a similar practice problem."
+    },
+    {
+      "id": "study-06",
+      "title": "خلاصه جزوه",
+      "categoryId": "study",
+      "description": "جزوه را به خلاصه‌ای منظم تبدیل کن.",
+      "body": "Turn [NOTES] into a structured study summary. Preserve definitions, formulas, dates, and distinctions; list unclear points needing source verification."
+    },
+    {
+      "id": "study-07",
+      "title": "مکالمه زبان",
+      "categoryId": "study",
+      "description": "مکالمه‌ای متناسب با سطح زبان‌آموز تمرین کن.",
+      "body": "Act as a patient [LANGUAGE] partner at [LEVEL]. Discuss [SITUATION], ask one question at a time, correct important errors, and introduce useful vocabulary."
+    },
+    {
+      "id": "study-08",
+      "title": "یادگیری مهارت",
+      "categoryId": "study",
+      "description": "برای یادگیری مهارتی جدید مسیر بساز.",
+      "body": "Create a six-week plan for [SKILL] from [CURRENT LEVEL]. Include weekly outcomes, practice, a project, spaced review, and progress criteria."
+    },
+    {
+      "id": "study-09",
+      "title": "آموزش سقراطی",
+      "categoryId": "study",
+      "description": "با پرسش راهنما به کشف مفهوم کمک کن.",
+      "body": "Tutor me on [TOPIC] using the Socratic method. Ask one guiding question at a time, offer hints before explanations, and summarize the reasoning at the end."
+    },
+    {
+      "id": "study-10",
+      "title": "تمرین پلکانی",
+      "categoryId": "study",
+      "description": "تمرین‌ها را از آسان تا دشوار مرتب کن.",
+      "body": "Create 12 practice problems on [TOPIC], progressing from recall to application. Provide hints separately and a reasoned answer key."
+    },
+    {
+      "id": "study-11",
+      "title": "مقایسه دو مفهوم",
+      "categoryId": "study",
+      "description": "تفاوت مفاهیم شبیه را روشن کن.",
+      "body": "Compare [CONCEPT A] and [CONCEPT B]. Explain similarities, differences, use cases, examples and non-examples, plus a reliable memory aid."
+    },
+    {
+      "id": "study-12",
+      "title": "آموزش فرمول",
+      "categoryId": "study",
+      "description": "فرمول و کاربردش را با مثال توضیح بده.",
+      "body": "Teach [FORMULA] in [SUBJECT]. Define variables and units, explain conditions, solve a numerical example, and check if the result is reasonable."
+    },
+    {
+      "id": "study-13",
+      "title": "ارائه کلاسی",
+      "categoryId": "study",
+      "description": "ارائه‌ای مناسب زمان تعیین‌شده آماده کن.",
+      "body": "Plan a [DURATION]-minute presentation on [TOPIC] for [AUDIENCE]. Include opening, three main points, demonstration, slide suggestions, and conclusion."
+    },
+    {
+      "id": "study-14",
+      "title": "تحلیل اشتباهات آزمون",
+      "categoryId": "study",
+      "description": "پاسخ‌های غلط را به تمرین هدفمند تبدیل کن.",
+      "body": "Analyze [QUESTIONS AND MY ANSWERS]. Classify error causes, explain correct reasoning, identify gaps, and create targeted practice."
+    },
+    {
+      "id": "study-15",
+      "title": "پاراگراف آکادمیک",
+      "categoryId": "study",
+      "description": "پاراگرافی منسجم با ادعا و شواهد بساز.",
+      "body": "Help improve an academic paragraph about [TOPIC]. Build claim, evidence, explanation, and transition using only provided sources."
+    },
+    {
+      "id": "study-16",
+      "title": "آزمایش علمی ایمن",
+      "categoryId": "study",
+      "description": "آزمایشی ساده و ایمن طراحی کن.",
+      "body": "Design a safe classroom experiment demonstrating [CONCEPT]. Include hypothesis, variables, common materials, steps, observation table, explanation, and safety notes."
+    },
+    {
+      "id": "study-17",
+      "title": "نقشه مفهومی",
+      "categoryId": "study",
+      "description": "ارتباط ایده‌های فصل را به نقشه تبدیل کن.",
+      "body": "Create a text-based concept map for [TOPIC], with central idea, branches, supporting concepts, labeled relationships, and uncertain links noted."
+    },
+    {
+      "id": "study-18",
+      "title": "مرور فاصله‌دار",
+      "categoryId": "study",
+      "description": "زمان‌بندی مرور برای ماندگاری مطالب تنظیم کن.",
+      "body": "Create a spaced-repetition schedule for [MATERIAL] over [TIME PERIOD]. Divide units, schedule retrieval sessions, track confidence, and adjust intervals after mistakes."
+    },
+    {
+      "id": "study-19",
+      "title": "توضیح نمودار",
+      "categoryId": "study",
+      "description": "نمودار را بخوان و محدودیت برداشت را توضیح بده.",
+      "body": "Interpret [CHART OR DATA]. Describe axes, units, patterns, outliers, and possible meanings; separate observations from claims it cannot establish."
+    },
+    {
+      "id": "study-20",
+      "title": "مثال روزمره",
+      "categoryId": "study",
+      "description": "برای موضوع انتزاعی مثال ملموس پیدا کن.",
+      "body": "Explain [ABSTRACT TOPIC] through three everyday examples. Map each analogy to the concept, note where it breaks down, and end with a practice question."
+    },
+    {
+      "id": "business-01",
+      "title": "ارزیابی ایده کسب‌وکار",
+      "categoryId": "business",
+      "description": "نیاز مشتری و امکان اجرای ایده را بررسی کن.",
+      "body": "Evaluate [IDEA] for [TARGET MARKET]. Identify problem, assumptions, alternatives, revenue options, risks, and the cheapest demand test."
+    },
+    {
+      "id": "business-02",
+      "title": "شناخت مشتری هدف",
+      "categoryId": "business",
+      "description": "بخش‌های مشتری مناسب را مشخص کن.",
+      "body": "Develop customer segments for [PRODUCT]. Describe needs, context, buying triggers, objections, and discovery channels; separate hypotheses from facts."
+    },
+    {
+      "id": "business-03",
+      "title": "تحلیل رقبا",
+      "categoryId": "business",
+      "description": "رقبا را با معیارهای قابل‌مقایسه بررسی کن.",
+      "body": "Create a competitor analysis for [MARKET] and [OFFERING]. Compare audience, positioning, features, pricing, strengths, weaknesses, and research gaps."
+    },
+    {
+      "id": "business-04",
+      "title": "طرح یک‌صفحه‌ای کسب‌وکار",
+      "categoryId": "business",
+      "description": "خلاصه‌ای عملی از مدل کسب‌وکار آماده کن.",
+      "body": "Draft a one-page plan for [IDEA], covering problem, solution, users, value, channels, revenue, costs, metrics, risks, and a 30-day experiment."
+    },
+    {
+      "id": "business-05",
+      "title": "پیشنهاد ارزش",
+      "categoryId": "business",
+      "description": "دلیل انتخاب محصول را شفاف بیان کن.",
+      "body": "Create three value propositions for [PRODUCT] aimed at [CUSTOMER]. Connect a specific problem to a credible benefit and differentiator; identify proof needed."
+    },
+    {
+      "id": "business-06",
+      "title": "برنامه عرضه محصول",
+      "categoryId": "business",
+      "description": "مراحل عرضه را به ترتیب مشخص کن.",
+      "body": "Build a launch plan for [PRODUCT] on [DATE], with pre-launch, launch, and post-launch tasks, dependencies, role owners, metrics, and contingencies."
+    },
+    {
+      "id": "business-07",
+      "title": "تحقیق بازار کم‌هزینه",
+      "categoryId": "business",
+      "description": "تقاضا را با بودجه محدود بسنج.",
+      "body": "Design a low-cost research plan for [IDEA] with [BUDGET]. Combine interviews, competitor review, demand checks, and a small test; note limitations."
+    },
+    {
+      "id": "business-08",
+      "title": "پرسشنامه مشتری",
+      "categoryId": "business",
+      "description": "پرسش‌های بی‌طرفانه برای شناخت نیاز بساز.",
+      "body": "Create a short survey about [PROBLEM OR PRODUCT]. Use neutral, single-focus questions, balanced options, logical order, and one optional open response."
+    },
+    {
+      "id": "business-09",
+      "title": "قیمت‌گذاری محصول",
+      "categoryId": "business",
+      "description": "روش‌های قیمت‌گذاری را متناسب با بازار بسنج.",
+      "body": "Evaluate pricing for [PRODUCT] in [MARKET], considering value, costs, alternatives, willingness-to-pay research, packaging, and testable hypotheses."
+    },
+    {
+      "id": "business-10",
+      "title": "بهبود فرایند فروش",
+      "categoryId": "business",
+      "description": "مسیر فروش را از تماس تا تصمیم بهتر کن.",
+      "body": "Map a sales process for [OFFER] sold to [CUSTOMER]. Define stages, qualification questions, follow-up timing, objections, and metrics without pressure tactics."
+    },
+    {
+      "id": "business-11",
+      "title": "پیشنهاد همکاری",
+      "categoryId": "business",
+      "description": "پیشنهادی روشن برای همکاری تجاری بنویس.",
+      "body": "Draft a partnership proposal for [ORGANIZATION A] and [ORGANIZATION B], covering shared goals, mutual value, responsibilities, timeline, metrics, risks, and open decisions."
+    },
+    {
+      "id": "business-12",
+      "title": "مدل درآمدی",
+      "categoryId": "business",
+      "description": "راه‌های درآمدزایی و پیامدهایشان را مقایسه کن.",
+      "body": "Compare revenue models for [BUSINESS]. Explain charging method, recurring revenue, operations, customer friction, risks, and a small experiment."
+    },
+    {
+      "id": "business-13",
+      "title": "حفظ مشتری",
+      "categoryId": "business",
+      "description": "برای رضایت و بازگشت مشتری برنامه بساز.",
+      "body": "Create a retention plan for [BUSINESS]. Identify churn points, onboarding improvements, feedback loops, service recovery, and meaningful metrics."
+    },
+    {
+      "id": "business-14",
+      "title": "ثبت ریسک کسب‌وکار",
+      "categoryId": "business",
+      "description": "ریسک‌ها را همراه اقدام پیشگیرانه فهرست کن.",
+      "body": "Create a risk register for [PROJECT]. Estimate likelihood and impact, early warnings, mitigation, owner role, and contingency response."
+    },
+    {
+      "id": "business-15",
+      "title": "شاخص‌های کلیدی عملکرد",
+      "categoryId": "business",
+      "description": "شاخص‌هایی تعریف کن که به تصمیم کمک کنند.",
+      "body": "Recommend KPIs for [GOAL]. Define formula, source, review cadence, pitfalls, and decision supported; distinguish leading and lagging indicators."
+    },
+    {
+      "id": "business-16",
+      "title": "برنامه رشد کسب‌وکار کوچک",
+      "categoryId": "business",
+      "description": "رشد مرحله‌ای با منابع محدود طراحی کن.",
+      "body": "Create a 90-day growth plan for [BUSINESS] with [RESOURCES]. Prioritize experiments, weekly actions, success thresholds, and stop conditions."
+    },
+    {
+      "id": "business-17",
+      "title": "معرفی خدمات",
+      "categoryId": "business",
+      "description": "خدمات را بدون وعده اغراق‌آمیز معرفی کن.",
+      "body": "Write a service page for [SERVICE] aimed at [AUDIENCE]. Explain benefits, inclusions, process, boundaries, proof points, and CTA without unsupported guarantees."
+    },
+    {
+      "id": "business-18",
+      "title": "بودجه اولیه",
+      "categoryId": "business",
+      "description": "هزینه‌ها و فرض‌های مالی را دسته‌بندی کن.",
+      "body": "Build a starter budget for [PROJECT]. Separate one-time and recurring costs, fixed and variable expenses, assumptions, contingency, and break-even inputs."
+    },
+    {
+      "id": "business-19",
+      "title": "تجربه مشتری",
+      "categoryId": "business",
+      "description": "نقاط تماس مشتری را بررسی کن.",
+      "body": "Map the customer journey for [PRODUCT]. For each stage list goal, touchpoint, friction, emotion, and improvement opportunity; prioritize by impact and effort."
+    },
+    {
+      "id": "business-20",
+      "title": "آزمون فرضیه تجاری",
+      "categoryId": "business",
+      "description": "فرضیه مهم را با آزمایشی قابل‌اندازه‌گیری بررسی کن.",
+      "body": "Turn [ASSUMPTION] into an experiment. State hypothesis, sample, procedure, metric, success threshold, duration, confounders, and decisions for each outcome."
+    },
+    {
+      "id": "social-01",
+      "title": "ایده پست اینستاگرام",
+      "categoryId": "social",
+      "description": "ایده‌های متنوع متناسب با هدف صفحه پیدا کن.",
+      "body": "Generate 10 distinct Instagram post ideas for [NICHE] and [AUDIENCE]. Include insight, format, hook, visual concept, and intended action."
+    },
+    {
+      "id": "social-02",
+      "title": "کپشن کوتاه",
+      "categoryId": "social",
+      "description": "کپشنی طبیعی با پیام روشن بنویس.",
+      "body": "Write three captions for [TOPIC] aimed at [AUDIENCE]. Use [TONE], a clear hook, one useful point, and a relevant low-pressure CTA."
+    },
+    {
+      "id": "social-03",
+      "title": "سناریوی ویدئوی کوتاه",
+      "categoryId": "social",
+      "description": "ویدئویی کوتاه با شروع قوی بنویس.",
+      "body": "Write a [SECONDS]-second short video script about [TOPIC]. Include hook, shot-by-shot visuals, spoken lines, on-screen text, pacing, and ending."
+    },
+    {
+      "id": "social-04",
+      "title": "تقویم محتوای ماهانه",
+      "categoryId": "social",
+      "description": "انتشار منظم و متنوع را برنامه‌ریزی کن.",
+      "body": "Create a 30-day calendar for [PLATFORM] about [NICHE], including date, format, topic, audience need, effort, and CTA across varied content pillars."
+    },
+    {
+      "id": "social-05",
+      "title": "کاروسل آموزشی",
+      "categoryId": "social",
+      "description": "موضوع را به اسلایدهای کوتاه تبدیل کن.",
+      "body": "Plan a seven-slide carousel about [TOPIC]. Give each slide one purpose, concise copy, visual suggestion, and logical transition."
+    },
+    {
+      "id": "social-06",
+      "title": "هشتگ‌های مرتبط",
+      "categoryId": "social",
+      "description": "هشتگ‌ها را بر اساس موضوع دسته‌بندی کن.",
+      "body": "Suggest research candidates for hashtags about [TOPIC] targeting [AUDIENCE] in [REGION]. Group by specificity and explain how to validate current relevance."
+    },
+    {
+      "id": "social-07",
+      "title": "شروع ویدئو",
+      "categoryId": "social",
+      "description": "شروع‌های متنوعی برای جلب توجه بساز.",
+      "body": "Write 12 distinct hooks for a video about [TOPIC], using questions, common mistakes, demonstrations, and benefits without misleading clickbait."
+    },
+    {
+      "id": "social-08",
+      "title": "پاسخ به نظر منفی",
+      "categoryId": "social",
+      "description": "پاسخی آرام و حرفه‌ای به انتقاد بنویس.",
+      "body": "Draft three respectful replies to [COMMENT]. Acknowledge valid concerns, clarify facts, protect private information, and route complex support appropriately."
+    },
+    {
+      "id": "social-09",
+      "title": "همکاری با سازنده محتوا",
+      "categoryId": "social",
+      "description": "پیشنهاد همکاری متناسب با برند آماده کن.",
+      "body": "Create a creator brief for [BRAND] and [CREATOR TYPE]. Define goal, audience, deliverables, messages, creative freedom, disclosure, timeline, rights to discuss, and metrics."
+    },
+    {
+      "id": "social-10",
+      "title": "بازآفرینی محتوای بلند",
+      "categoryId": "social",
+      "description": "محتوای بلند را به چند قالب تبدیل کن.",
+      "body": "Repurpose [SOURCE] into a short-video concept, carousel outline, three text posts, and newsletter angle. Preserve facts and adapt each format."
+    },
+    {
+      "id": "social-11",
+      "title": "تحلیل عملکرد پست",
+      "categoryId": "social",
+      "description": "از آمار برای تصمیم محتوایی استفاده کن.",
+      "body": "Analyze [METRICS]. Compare reach, engagement, saves, clicks, and conversions where available; account for sample size and propose two experiments."
+    },
+    {
+      "id": "social-12",
+      "title": "بیوی صفحه",
+      "categoryId": "social",
+      "description": "معرفی کوتاه صفحه را متمایز کن.",
+      "body": "Write five bio options for [ACCOUNT] serving [AUDIENCE]. Explain offer, audience, and credible next step within [CHARACTER LIMIT]."
+    },
+    {
+      "id": "social-13",
+      "title": "چالش اجتماعی",
+      "categoryId": "social",
+      "description": "چالشی ساده و قابل‌مشارکت طراحی کن.",
+      "body": "Design a safe, accessible challenge around [THEME]. Define steps, sample post, duration, moderation, accessibility alternatives, and participation measures."
+    },
+    {
+      "id": "social-14",
+      "title": "مجموعه محتوای آموزشی",
+      "categoryId": "social",
+      "description": "محتوای آموزشی را به ترتیب طراحی کن.",
+      "body": "Design a 10-post series teaching [SKILL] to beginners. Arrange learning outcomes from basics to application and vary formats."
+    },
+    {
+      "id": "social-15",
+      "title": "استوری تعاملی",
+      "categoryId": "social",
+      "description": "استوری‌هایی برای دریافت بازخورد طراحی کن.",
+      "body": "Create five interactive stories for [GOAL] using varied polls, quizzes, and question prompts. Explain what each response can teach and avoid sensitive data."
+    },
+    {
+      "id": "social-16",
+      "title": "تبدیل پرسش به محتوا",
+      "categoryId": "social",
+      "description": "پرسش‌های مخاطب را به ایده محتوا تبدیل کن.",
+      "body": "Turn [QUESTIONS] into grouped content ideas. Choose a format for each group, suggest headlines, and note where evidence or expert review is needed."
+    },
+    {
+      "id": "social-17",
+      "title": "متن تبلیغ اجتماعی",
+      "categoryId": "social",
+      "description": "آگهی کوتاه و دقیق برای محصول بنویس.",
+      "body": "Write three ad variations for [OFFER] on [PLATFORM], testing different angles with truthful benefits, proof points, and distinct CTAs."
+    },
+    {
+      "id": "social-18",
+      "title": "مدیریت جامعه",
+      "categoryId": "social",
+      "description": "دستورالعملی برای تعامل پایدار بنویس.",
+      "body": "Create a community playbook for [COMMUNITY] with tone, response goals, escalation, spam handling, moderation, privacy boundaries, and reply examples."
+    },
+    {
+      "id": "social-19",
+      "title": "ویدئوی پشت‌صحنه",
+      "categoryId": "social",
+      "description": "فرایند واقعی کار را به داستانی کوتاه تبدیل کن.",
+      "body": "Plan a behind-the-scenes video about [PROCESS]. Show three stages, explain viewer value, specify shots and narration, and protect confidential details."
+    },
+    {
+      "id": "social-20",
+      "title": "دسترس‌پذیری محتوا",
+      "categoryId": "social",
+      "description": "محتوا را برای افراد بیشتری قابل‌استفاده کن.",
+      "body": "Audit [POST] for caption clarity, alt text, contrast, text size, flashing, subtitles, and jargon. Suggest specific improvements."
+    },
+    {
+      "id": "productivity-01",
+      "title": "برنامه روزانه",
+      "categoryId": "productivity",
+      "description": "کارهای روز را واقع‌بینانه مرتب کن.",
+      "body": "Create a realistic daily plan from [TASKS] with [HOURS] available. Include priorities, durations, breaks, transition time, buffer, and what to defer."
+    },
+    {
+      "id": "productivity-02",
+      "title": "برنامه هفتگی",
+      "categoryId": "productivity",
+      "description": "کار، یادگیری و استراحت را متعادل کن.",
+      "body": "Build a weekly plan around [COMMITMENTS], [GOALS], and [HOURS]. Allocate focus blocks, routine tasks, recovery, review, and highlight conflicts."
+    },
+    {
+      "id": "productivity-03",
+      "title": "اولویت‌بندی کارها",
+      "categoryId": "productivity",
+      "description": "کارهای مهم را از کارهای کم‌اثر جدا کن.",
+      "body": "Prioritize [TASKS] by urgency, impact, effort, dependencies, and deadlines. Recommend what to do, schedule, delegate, simplify, or drop."
+    },
+    {
+      "id": "productivity-04",
+      "title": "شکستن هدف بزرگ",
+      "categoryId": "productivity",
+      "description": "هدف را به گام‌های قابل‌اندازه‌گیری تبدیل کن.",
+      "body": "Turn [GOAL] into a practical action plan with measurable outcome, milestones, next actions, obstacles, weekly checks, and a first step today."
+    },
+    {
+      "id": "productivity-05",
+      "title": "ساخت عادت",
+      "categoryId": "productivity",
+      "description": "عادتی کوچک با نشانه و پیگیری طراحی کن.",
+      "body": "Help build [HABIT] using a tiny start, reliable cue, implementation intention, simple tracking, likely barriers, and recovery after missed days."
+    },
+    {
+      "id": "productivity-06",
+      "title": "تمرکز عمیق",
+      "categoryId": "productivity",
+      "description": "جلسه تمرکز را با وقفه مناسب تنظیم کن.",
+      "body": "Design a focus session for [TASK] lasting [DURATION], with outcome, preparation, distraction controls, work intervals, breaks, and stopping rule."
+    },
+    {
+      "id": "productivity-07",
+      "title": "برنامه پروژه",
+      "categoryId": "productivity",
+      "description": "پروژه را به مراحل و خروجی‌ها تقسیم کن.",
+      "body": "Create a plan for [PROJECT] due [DATE] with deliverables, milestones, dependencies, risks, role owners, and a weekly status format."
+    },
+    {
+      "id": "productivity-08",
+      "title": "کاهش تعلل",
+      "categoryId": "productivity",
+      "description": "شروع کار را ساده‌تر کن.",
+      "body": "Help me start [TASK]. Identify friction without judgment, propose a five-minute action, define one session's finish line, and reduce distractions."
+    },
+    {
+      "id": "productivity-09",
+      "title": "چک‌لیست تکرارشونده",
+      "categoryId": "productivity",
+      "description": "چک‌لیستی دقیق برای کار تکراری بساز.",
+      "body": "Create a reusable checklist for [PROCESS]. Group ordered steps, quality checks, stop conditions, and distinguish required steps from optional improvements."
+    },
+    {
+      "id": "productivity-10",
+      "title": "مدیریت زمان مطالعه",
+      "categoryId": "productivity",
+      "description": "جلسات مطالعه را متعادل تنظیم کن.",
+      "body": "Schedule study for [SUBJECTS] over [PERIOD], considering deadlines, difficulty, retrieval practice, spaced review, breaks, and a fallback plan."
+    },
+    {
+      "id": "productivity-11",
+      "title": "تصمیم بین گزینه‌ها",
+      "categoryId": "productivity",
+      "description": "گزینه‌ها را با معیارهای مهم مقایسه کن.",
+      "body": "Compare [OPTIONS] using [CRITERIA]. Build a weighted matrix, state uncertainties, identify deal-breakers, and list information that could change the decision."
+    },
+    {
+      "id": "productivity-12",
+      "title": "مرور هفتگی",
+      "categoryId": "productivity",
+      "description": "مرور هفته را به اقدام‌های مشخص تبدیل کن.",
+      "body": "Review [NOTES] by summarizing wins, unfinished work, blockers, lessons, and commitments. Choose at most three next-week priorities and one thing to simplify."
+    },
+    {
+      "id": "productivity-13",
+      "title": "سامان‌دهی فایل‌ها",
+      "categoryId": "productivity",
+      "description": "ساختاری ساده برای فایل‌ها و نسخه‌ها بساز.",
+      "body": "Design a file organization system for [WORK TYPE], including folders, naming, version rules, archive criteria, backups, and safe migration."
+    },
+    {
+      "id": "productivity-14",
+      "title": "کاهش حواس‌پرتی دیجیتال",
+      "categoryId": "productivity",
+      "description": "اعلان‌ها و مزاحمت‌ها را مدیریت کن.",
+      "body": "Create a distraction-reduction plan for [DEVICES AND APPS]. Choose notifications to disable, exceptions, focus modes, check-in windows, and a one-week experiment."
+    },
+    {
+      "id": "productivity-15",
+      "title": "هدف‌گذاری ماهانه",
+      "categoryId": "productivity",
+      "description": "هدف‌های محدود و سنجش‌پذیر تعیین کن.",
+      "body": "Set monthly goals for [AREAS]. Limit to three outcomes, define measures, weekly actions, dependencies, and review date; separate controllable actions from external results."
+    },
+    {
+      "id": "productivity-16",
+      "title": "دستورالعمل کاری",
+      "categoryId": "productivity",
+      "description": "فرایند را برای تکرارپذیری مستند کن.",
+      "body": "Turn [PROCESS NOTES] into an SOP with purpose, scope, prerequisites, ordered steps, quality checks, exception handling, and owner role."
+    },
+    {
+      "id": "productivity-17",
+      "title": "جلسه مؤثر",
+      "categoryId": "productivity",
+      "description": "جلسه‌ای کوتاه با خروجی روشن طراحی کن.",
+      "body": "Create an agenda for a [DURATION]-minute meeting about [PURPOSE]. Define desired decision, pre-reading, timed topics, prompts, owners, and deadlines."
+    },
+    {
+      "id": "productivity-18",
+      "title": "استراحت و انرژی",
+      "categoryId": "productivity",
+      "description": "وقفه‌هایی متناسب با نوع کار پیشنهاد بده.",
+      "body": "Suggest a balanced work-rest rhythm for [WORK TYPE] over [PERIOD], including movement, screen breaks, hydration reminders, and fatigue-based adjustments."
+    },
+    {
+      "id": "productivity-19",
+      "title": "ساده‌سازی فرایند",
+      "categoryId": "productivity",
+      "description": "مراحل غیرضروری را پیدا کن.",
+      "body": "Analyze [CURRENT STEPS] for repetition, waiting, context switching, and failure points. Propose a simpler process, low-risk automation, and measures of improvement."
+    },
+    {
+      "id": "productivity-20",
+      "title": "قالب یادداشت",
+      "categoryId": "productivity",
+      "description": "قالبی بساز که اطلاعات مهم بازیابی شوند.",
+      "body": "Design a reusable note template for [USE CASE] with context, key ideas, decisions, questions, sources, next actions, and tags."
+    },
+    {
+      "id": "gaming-01",
+      "title": "ایده بازی مستقل",
+      "categoryId": "gaming",
+      "description": "ایده‌ای کوچک و متمایز برای بازی بساز.",
+      "body": "Generate five indie game concepts. For each define core loop, player fantasy, unique mechanic, scope, art direction, and a quick prototype test."
+    },
+    {
+      "id": "gaming-02",
+      "title": "شخصیت بازی",
+      "categoryId": "gaming",
+      "description": "شخصیتی با انگیزه و توانایی متعادل بساز.",
+      "body": "Design a playable [GENRE] character with backstory, motivation, abilities, weaknesses, silhouette, progression, and mechanics expressing personality."
+    },
+    {
+      "id": "gaming-03",
+      "title": "طراحی مرحله",
+      "categoryId": "gaming",
+      "description": "مرحله‌ای با ریتم و چالش قابل‌فهم طراحی کن.",
+      "body": "Design a level teaching [MECHANIC]. Map introduction, safe practice, challenge, twist, reward, and exit; include feedback and accessibility."
+    },
+    {
+      "id": "gaming-04",
+      "title": "مأموریت نقش‌آفرینی",
+      "categoryId": "gaming",
+      "description": "مأموریتی با انتخاب و پیامد بساز.",
+      "body": "Create a quest in [SETTING] with hook, three NPCs or clues, conflicting goals, multiple solutions, consequences, and fitting rewards."
+    },
+    {
+      "id": "gaming-05",
+      "title": "طراحی باس",
+      "categoryId": "gaming",
+      "description": "مبارزه‌ای منصفانه با دشمن ویژه بساز.",
+      "body": "Design a boss encounter with attack patterns, telegraphs, phases, safe windows, difficulty ramp, arena hazards, and counterplay."
+    },
+    {
+      "id": "gaming-06",
+      "title": "تعادل پیشرفت",
+      "categoryId": "gaming",
+      "description": "رشد بازیکن را بدون تورم قدرت تنظیم کن.",
+      "body": "Propose a progression system for [GAME], defining resources, unlock cadence, meaningful choices, late-game sustainability, and playtest measures."
+    },
+    {
+      "id": "gaming-07",
+      "title": "جهان خیالی",
+      "categoryId": "gaming",
+      "description": "جهانی منسجم با فرهنگ و محدودیت بساز.",
+      "body": "Create a fictional world for [GENRE], defining geography, resources, cultures, power, history, everyday life, and central tension without generic tropes."
+    },
+    {
+      "id": "gaming-08",
+      "title": "شخصیت غیرقابل‌بازی",
+      "categoryId": "gaming",
+      "description": "شخصیتی برای تعامل طبیعی با بازیکن طراحی کن.",
+      "body": "Create an NPC for [SETTING] with goal, secret, speech pattern, routine, relationship to player, and two behavior changes driven by choices."
+    },
+    {
+      "id": "gaming-09",
+      "title": "معمای محیطی",
+      "categoryId": "gaming",
+      "description": "معمایی بساز که از سرنخ‌های محیط استفاده کند.",
+      "body": "Design an environmental puzzle for [LOCATION] with clues, actions, feedback, solution logic, hint ladder, and accessibility options."
+    },
+    {
+      "id": "gaming-10",
+      "title": "بازی رومیزی",
+      "categoryId": "gaming",
+      "description": "بازی رومیزی ساده با قوانین روشن پیشنهاد بده.",
+      "body": "Design a tabletop game for [PLAYER COUNT] lasting [DURATION]. Define objective, components, turns, interaction, end condition, and quick-start example."
+    },
+    {
+      "id": "gaming-11",
+      "title": "مأموریت روزانه",
+      "categoryId": "gaming",
+      "description": "چالش روزانه متنوع و قابل‌انجام طراحی کن.",
+      "body": "Create seven daily challenges for [GAME], varying skills and duration, with alternatives for play styles and no pressure for unhealthy playtime."
+    },
+    {
+      "id": "gaming-12",
+      "title": "معمای کارآگاهی",
+      "categoryId": "gaming",
+      "description": "پرونده‌ای با سرنخ‌های منصفانه بساز.",
+      "body": "Create a fair-play mystery in [SETTING] with incident, suspects, motives, clue timeline, logical red herrings, and a solution supported by discoverable evidence."
+    },
+    {
+      "id": "gaming-13",
+      "title": "سیستم ساخت آیتم",
+      "categoryId": "gaming",
+      "description": "سیستم ساخت‌وساز با انتخاب‌های جالب بساز.",
+      "body": "Design crafting for [GAME TYPE], defining resources, recipes, discovery, inventory limits, progression, and trade-offs so one recipe does not dominate."
+    },
+    {
+      "id": "gaming-14",
+      "title": "دیالوگ شاخه‌ای",
+      "categoryId": "gaming",
+      "description": "گفت‌وگویی بنویس که انتخاب‌ها اثر داشته باشند.",
+      "body": "Write branching dialogue between [CHARACTERS] about [CONFLICT], including choices, distinct responses, consequences, and a compact branch map."
+    },
+    {
+      "id": "gaming-15",
+      "title": "بازی آموزشی",
+      "categoryId": "gaming",
+      "description": "مفهوم آموزشی را به مکانیک بازی تبدیل کن.",
+      "body": "Design a game mechanic teaching [OBJECTIVE]. Define player action, feedback loop, difficulty progression, assessment signal, and how to distinguish understanding from guessing."
+    },
+    {
+      "id": "gaming-16",
+      "title": "بازی گروهی",
+      "categoryId": "gaming",
+      "description": "بازی گروهی کوتاه با قوانین ساده پیشنهاد بده.",
+      "body": "Suggest five group games for [GROUP SIZE] people in [SETTING], including setup, rules, duration, materials, accessibility, and replay variation."
+    },
+    {
+      "id": "gaming-17",
+      "title": "تحلیل بازخورد بازیکن",
+      "categoryId": "gaming",
+      "description": "بازخورد را به فرضیه‌های قابل‌آزمایش تبدیل کن.",
+      "body": "Analyze [FEEDBACK], group issues, separate symptoms from causes, identify player segments, and propose prioritized playtests or telemetry checks."
+    },
+    {
+      "id": "gaming-18",
+      "title": "آیتم کمیاب",
+      "categoryId": "gaming",
+      "description": "آیتم جذابی طراحی کن که بازی را نامتعادل نکند.",
+      "body": "Design a rare item for [GAME] with lore, visual identity, effect, acquisition, limitations, synergies, counterplay, and balance safeguards."
+    },
+    {
+      "id": "gaming-19",
+      "title": "داستان علمی‌تخیلی",
+      "categoryId": "gaming",
+      "description": "داستانی با پیامدهای منطقی فناوری بساز.",
+      "body": "Develop a sci-fi premise based on [WHAT-IF], defining speculative rule, social consequences, dilemma, technological limits, and conflict."
+    },
+    {
+      "id": "gaming-20",
+      "title": "حالت همکاری",
+      "categoryId": "gaming",
+      "description": "مکانیک‌هایی برای همکاری واقعی بازیکنان بساز.",
+      "body": "Design a cooperative mode for [GAME] with complementary abilities, shared objectives, communication constraints, recovery from failure, and safeguards against one-player dominance."
+    },
+    {
+      "id": "data-01",
+      "title": "بررسی اولیه داده",
+      "categoryId": "data",
+      "description": "ساختار و کیفیت داده را ارزیابی کن.",
+      "body": "Review [DATA] for columns, types, missingness, duplicates, suspicious values, distributions, and questions to resolve before analysis."
+    },
+    {
+      "id": "data-02",
+      "title": "پاک‌سازی داده",
+      "categoryId": "data",
+      "description": "مراحل پاک‌سازی را با حفظ داده خام پیشنهاد بده.",
+      "body": "Design a cleaning workflow for [DATA SOURCE], addressing duplicates, inconsistent categories, dates, missing values, outliers, and documented transformations."
+    },
+    {
+      "id": "data-03",
+      "title": "تحلیل روند زمانی",
+      "categoryId": "data",
+      "description": "تغییرات زمان‌مند را با احتیاط تفسیر کن.",
+      "body": "Analyze [TIME SERIES] for frequency, gaps, trend, seasonality, outliers, and structural changes. Separate observed patterns from causal explanations."
+    },
+    {
+      "id": "data-04",
+      "title": "انتخاب نمودار",
+      "categoryId": "data",
+      "description": "نمودار را بر اساس سؤال تحلیلی انتخاب کن.",
+      "body": "Recommend a chart for [QUESTION] and [FIELDS]. Compare alternatives, define axes and units, explain insights, and flag misleading design."
+    },
+    {
+      "id": "data-05",
+      "title": "فرمول صفحه‌گسترده",
+      "categoryId": "data",
+      "description": "فرمول مناسب را بنویس و توضیح بده.",
+      "body": "Write an [EXCEL OR SHEETS] formula for [TASK] using [LAYOUT]. Explain it, show sample input/output, and handle blanks or errors."
+    },
+    {
+      "id": "data-06",
+      "title": "تحلیل همبستگی",
+      "categoryId": "data",
+      "description": "رابطه متغیرها را بدون ادعای علت بررسی کن.",
+      "body": "Analyze the relationship between [A] and [B] in [DATA]. Recommend a method, discuss assumptions and outliers, warn correlation is not causation, and suggest checks."
+    },
+    {
+      "id": "data-07",
+      "title": "خلاصه آماری",
+      "categoryId": "data",
+      "description": "شاخص‌های آماری مفید را گزارش کن.",
+      "body": "Create a descriptive-statistics plan for [DATASET], selecting counts, center, spread, quantiles, and missingness; explain mean versus median."
+    },
+    {
+      "id": "data-08",
+      "title": "داشبورد مدیریتی",
+      "categoryId": "data",
+      "description": "داشبوردی برای تصمیم‌گیری طراحی کن.",
+      "body": "Design a dashboard for [TEAM OR GOAL]. Choose metrics, define calculations and refresh cadence, propose layout and filters, and state decisions supported."
+    },
+    {
+      "id": "data-09",
+      "title": "تحلیل فروش",
+      "categoryId": "data",
+      "description": "عملکرد فروش را در بخش‌های مختلف بررسی کن.",
+      "body": "Analyze sales fields [FIELDS] to answer [QUESTIONS]. Examine revenue, units, order value, segments, trends, returns, seasonality, and data quality."
+    },
+    {
+      "id": "data-10",
+      "title": "تفسیر آزمایش",
+      "categoryId": "data",
+      "description": "نتیجه آزمایش را همراه عدم‌قطعیت توضیح بده.",
+      "body": "Interpret [RESULTS AND DESIGN], summarizing effect estimate, uncertainty, sample size, groups, and limitations without unsupported significance claims."
+    },
+    {
+      "id": "data-11",
+      "title": "کوئری تجمیعی SQL",
+      "categoryId": "data",
+      "description": "داده‌ها را برای گزارش گروه‌بندی کن.",
+      "body": "Write SQL to summarize [METRIC] by [DIMENSIONS] from [SCHEMA]. Define date range, filters, grouping, NULL handling, and assumptions."
+    },
+    {
+      "id": "data-12",
+      "title": "تحلیل قیف تبدیل",
+      "categoryId": "data",
+      "description": "نقاط ریزش در مسیر تبدیل را پیدا کن.",
+      "body": "Analyze funnel stages [STAGES] and counts [DATA]. Calculate conversion and drop-off, identify investigations, and note tracking or cohort issues."
+    },
+    {
+      "id": "data-13",
+      "title": "شناسایی داده پرت",
+      "categoryId": "data",
+      "description": "مقادیر غیرعادی را بدون حذف خودکار شناسایی کن.",
+      "body": "Propose outlier detection for [DATASET], comparing domain rules, IQR, and robust methods. Explain investigation and why flagged values should not be auto-removed."
+    },
+    {
+      "id": "data-14",
+      "title": "کیفیت داده",
+      "categoryId": "data",
+      "description": "قواعد سنجش اعتمادپذیری داده تعریف کن.",
+      "body": "Create data-quality checks for [DATASET] covering completeness, validity, uniqueness, consistency, timeliness, and referential integrity with failure responses."
+    },
+    {
+      "id": "data-15",
+      "title": "تحلیل بازخورد متنی",
+      "categoryId": "data",
+      "description": "موضوع‌های تکرارشونده را از متن استخراج کن.",
+      "body": "Analyze [RESPONSES] using a transparent coding scheme. Group themes, paraphrase examples, estimate frequency only when supported, and preserve minority views."
+    },
+    {
+      "id": "data-16",
+      "title": "مقایسه گروه‌ها",
+      "categoryId": "data",
+      "description": "گروه‌ها را با توجه به داده و نمونه مقایسه کن.",
+      "body": "Compare [GROUPS] on [OUTCOME] in [DATA]. Recommend summaries and tests based on assumptions, report uncertainty, and flag confounders or small samples."
+    },
+    {
+      "id": "data-17",
+      "title": "فرهنگ داده",
+      "categoryId": "data",
+      "description": "فرهنگ‌داده‌ای قابل‌استفاده بساز.",
+      "body": "Create a data dictionary for [DATASET], documenting field meaning, type, units, allowed values, missing rules, source, privacy, and unknowns."
+    },
+    {
+      "id": "data-18",
+      "title": "گزارش مدیریتی",
+      "categoryId": "data",
+      "description": "یافته‌ها را به گزارشی تصمیم‌محور تبدیل کن.",
+      "body": "Write an executive report from [FINDINGS]. Lead with takeaway, then evidence, caveats, implications, and actions; separate results from hypotheses."
+    },
+    {
+      "id": "data-19",
+      "title": "طراحی آزمون A/B",
+      "categoryId": "data",
+      "description": "آزمایشی منصفانه برای سنجش تغییر طراحی کن.",
+      "body": "Design an A/B test for [CHANGE] with metric [METRIC]. Define hypothesis, randomization, population, guardrails, sample-size inputs, duration, and decision criteria."
+    },
+    {
+      "id": "data-20",
+      "title": "اسکریپت تحلیل داده",
+      "categoryId": "data",
+      "description": "تحلیلی تکرارپذیر با کد بنویس.",
+      "body": "Write a reproducible [PYTHON OR R] analysis for [TASK]. Validate schema, handle missing values, label outputs, and provide interpretation guidance without inventing results."
+    }
+  ]
+}

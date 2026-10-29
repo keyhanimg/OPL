@@ -370,3 +370,19 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 .copy-prompt:hover { border-color: var(--accent); }
 .prompt-license, .prompt-source { color: var(--muted); font: 400 9px/1.8 var(--font-code); overflow-wrap: anywhere; }
 .prompt-source { margin: 10px 0 0; }
+
+/* جست‌وجو، نمایش کامل و ابزارهای پرامپت */
+.search-label{display:block;margin:22px 0 8px;font-size:12px;font-weight:600}.search-wrap{display:flex;gap:8px;align-items:center}
+.search-wrap input{min-width:0;flex:1;padding:13px 15px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--text);font:400 12px/1.8 var(--font-fa);outline:none}
+.search-wrap input:focus{border-color:var(--accent)}.search-wrap input::placeholder{color:var(--muted)}
+.clear-search{border:1px solid var(--line);border-radius:11px;padding:11px 12px;background:var(--surface);color:var(--muted);cursor:pointer;font-size:11px}
+.search-status{min-height:1.2em;margin:8px 0 0;color:var(--muted);font-size:11px}.search-results{margin-top:30px}.search-results h2{font-size:20px}
+.prompt-preview{max-height:130px;direction:ltr;text-align:left;font-family:var(--font-code);font-size:11px}.prompt-actions{justify-content:flex-start}.secondary-action{background:transparent}.prompt-count{margin:0 0 2px}
+.load-error{padding:18px;border:1px solid color-mix(in srgb,#c45b5b 35%,var(--line));border-radius:14px;background:var(--surface);line-height:2}
+.prompt-dialog{width:min(680px,calc(100% - 28px));max-height:85vh;overflow:auto;border:1px solid var(--line);border-radius:20px;padding:clamp(20px,5vw,32px);background:var(--surface-solid);color:var(--text);box-shadow:var(--shadow)}
+.prompt-dialog::backdrop{background:rgba(4,13,22,.58);backdrop-filter:blur(4px)}.dialog-top{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font-size:11px}
+.dialog-close{border:1px solid var(--line);border-radius:10px;width:34px;height:34px;background:var(--surface);color:var(--text);font-size:23px;cursor:pointer}
+.prompt-dialog h2{font-size:20px;line-height:1.8}.prompt-dialog .prompt-body{max-height:45vh;direction:ltr;text-align:left;font-family:var(--font-code)}
+.dialog-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}.category-name small{direction:rtl;font-family:var(--font-fa);letter-spacing:0}
+button:disabled,input:disabled{opacity:.55;cursor:not-allowed}
+@media(max-width:520px){.search-wrap{align-items:stretch;flex-direction:column}.search-wrap input,.clear-search{width:100%}.prompt-actions .copy-prompt{flex:1}}
